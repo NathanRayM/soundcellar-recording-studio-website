@@ -1,11 +1,9 @@
+import logo from "../assets/images/mic-logo-1.png";
+
 function Logo() {
   return (
     <a href="#" className="logo__container">
-      <img
-        className="logo__image"
-        src="/src/assets/images/mic-logo-1.png"
-        alt=""
-      />
+      <img className="logo__image" src={logo} alt="" />
       <div className="logo__content">
         <p className="logo--title-top">SOUND CELLAR</p>
         <div className="logo__span--container">

@@ -75,14 +75,14 @@
   background-size: cover;
   background-position: center;
   background-image: linear-gradient(rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.25)),
-    url(/src/assets/images/microphone.png);
+    url("../../../assets/images/microphone.png");
 }
 
 .about__right--image {
   background-repeat: no-repeat;
   background-size: cover;
   background-image: linear-gradient(rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.25)),
-    url(/src/assets/images/live-room.png);
+    url("../../../assets/images/live-room.png");
 }
 
 @media (max-width: 1024px) {
@@ -115,33 +115,6 @@
     font-size: 1.2rem;
   }
 }
-
-/* @media (max-width: 895px) {
-  .about {
-    padding: 6rem 2rem 2rem 2rem;
-    overflow: hidden;
-  }
-
-  .about__left--image {
-    min-height: 15rem;
-    background-position: center 85%;
-  }
-
-  .about__right--content {
-    padding: 2rem;
-  }
-
-  .about__right--image {
-    background-size: contain;
-    height: 20rem;
-    background-position: center 50%;
-  }
-
-  .about__right--description {
-    font-size: 1rem;
-    width: 20rem;
-  }
-} */
 
 @media (max-width: 895px) {
   .about {
@@ -176,7 +149,6 @@
     height: auto;
     background-position: left 20%;
     background-size: cover;
-    /* background-position: center; */
   }
 
   .about__left--description {
@@ -208,7 +180,7 @@
 
   .about__left--content {
     background-image: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.5)),
-      url(/src/assets/images/microphone.png);
+      url("../../../assets/images/microphone.png");
     background-repeat: no-repeat;
     background-size: contain;
     aspect-ratio: 1/1.2;
