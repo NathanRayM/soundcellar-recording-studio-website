@@ -1,4 +1,5 @@
 import { services } from "../../../data/services";
+import headphones from "../../../assets/images/headphones-icon.png";
 import "./Services.css";
 
 function ServiceCard({ title, description, icon, rate }) {
@@ -39,11 +40,7 @@ function Services() {
           ))}
         </div>
         <div className="services__deposit--container">
-          <img
-            className="services__deposit--image"
-            src="/src/assets/images/headphones-icon.png"
-            alt=""
-          />
+          <img className="services__deposit--image" src={headphones} alt="" />
           <p className="services__deposit--info">
             All studio bookings require a deposit. Contact us for details.
           </p>
