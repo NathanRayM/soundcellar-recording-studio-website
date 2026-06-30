@@ -1,16 +1,50 @@
-# React + Vite
+# Sound Cellar Recording Studio Website
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern full-stack recording studio website built with React, featuring a responsive user interface, custom audio playback, SEO optimization, and a Node.js/Express backend for contact form submissions.
 
-Currently, two official plugins are available:
+## 🔗 Live Website
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+https://soundcellarrecording.com
 
-## React Compiler
+## 📸 Preview
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+![Screenshot](/src/assets/images/soundcellar-thumb.png)
 
-## Expanding the ESLint configuration
+## Overview
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+This project was designed and developed for Sound Cellar Recording, a professional recording studio based in Central Ohio.
+
+The goal was to replace an outdated website with a, modern experience that better showcases studio services while improving usability, accessibility, mobile responsiveness, and search engine visibility.
+
+The application includes a custom-built audio showcase, responsive layouts, interactive UI components, and a backend contact form powered by Node.js and Express.
+
+## Features
+
+- Responsive design
+- Built with React
+- Custom audio player
+- Genre filtering for audio examples
+- Dynamic project structure using reusable components
+- Node.js & Express backend
+- Contact form with email delivery
+- SEO optimized
+- Semantic HTML
+- Smooth scrolling navigation
+- Modern UI with CSS animations
+- Accessible markup
+- Fast deployment using Netlify
+
+## Built With
+
+**Frontend**
+
+- React
+- JavaScript (ES6+)
+- HTML5
+- CSS3
+- Vite
+
+**Backend**
+
+- Node.js
+- Express.js
