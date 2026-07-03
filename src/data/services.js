@@ -1,7 +1,7 @@
-import production from "../assets/images/production-icon.png";
-import recording from "../assets/images/recording-icon.png";
-import mixing from "../assets/images/mixing-icon.png";
-import mastering from "../assets/images/mastering-icon.png";
+import production from "../assets/images/production-icon.webp";
+import recording from "../assets/images/recording-icon.webp";
+import mixing from "../assets/images/mixing-icon.webp";
+import mastering from "../assets/images/mastering-icon.webp";
 
 export const services = [
   {

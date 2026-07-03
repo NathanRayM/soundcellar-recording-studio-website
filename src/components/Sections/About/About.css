@@ -75,14 +75,14 @@
   background-size: cover;
   background-position: center;
   background-image: linear-gradient(rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.25)),
-    url("../../../assets/images/microphone.png");
+    url("../../../assets/images/microphone.webp");
 }
 
 .about__right--image {
   background-repeat: no-repeat;
   background-size: cover;
   background-image: linear-gradient(rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.25)),
-    url("../../../assets/images/live-room.png");
+    url("../../../assets/images/live-room.webp");
 }
 
 @media (max-width: 1024px) {
@@ -180,7 +180,7 @@
 
   .about__left--content {
     background-image: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.5)),
-      url("../../../assets/images/microphone.png");
+      url("../../../assets/images/microphone.webp");
     background-repeat: no-repeat;
     background-size: contain;
     aspect-ratio: 1/1.2;

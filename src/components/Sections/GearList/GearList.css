@@ -11,7 +11,7 @@
   gap: 1rem;
   padding: 3rem 1rem 1rem 1rem;
   background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)),
-    url(/src/assets/images/studio-rack-flipped.png);
+    url(/src/assets/images/studio-rack-flipped.webp);
   background-size: cover;
   background-position: center;
   width: 30%;

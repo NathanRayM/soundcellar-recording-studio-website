@@ -89,7 +89,7 @@
         var(--bg-overlay-center) 50%,
         var(--bg-overlay-right) 70%
       ),
-      url(/src/assets/images/control-room-edit-three.png);
+      url(/src/assets/images/control-room-edit-three.webp);
 
     background-size: cover;
     background-position: center center;

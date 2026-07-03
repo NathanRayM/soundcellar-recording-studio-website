@@ -1,4 +1,4 @@
-import logo from "../assets/images/mic-logo-1.png";
+import logo from "../assets/images/mic-logo-1.webp";
 
 function Logo() {
   return (
