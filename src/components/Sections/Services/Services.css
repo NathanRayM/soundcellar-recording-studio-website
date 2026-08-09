@@ -1,5 +1,6 @@
 .services {
   display: flex;
+  justify-content: center;
   padding: 6rem 1rem;
   position: relative;
   background: radial-gradient(
