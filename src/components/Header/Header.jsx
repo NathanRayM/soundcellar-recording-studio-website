@@ -21,11 +21,11 @@ function Header() {
   };
 
   return (
-    <section className="header">
+    <header className="header">
       <div className="header__left">
         <Logo />
       </div>
-      <nav className="header__nav">
+      <nav className="header__nav" aria-label="Main navigation">
         <ul className="header__nav--list">
           {navigationList.map((list) => (
             <HeaderNavList key={list.id} item={list.item} link={list.link} />
@@ -74,7 +74,7 @@ function Header() {
           </li>
         </ul>
       </div>
-    </section>
+    </header>
   );
 }
 

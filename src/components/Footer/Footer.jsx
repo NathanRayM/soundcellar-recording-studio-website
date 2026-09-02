@@ -13,11 +13,11 @@ function FooterNavList({ item, link }) {
 
 function Footer() {
   return (
-    <section className="footer">
+    <footer className="footer">
       <div className="footer__top">
         <Logo />
         <div className="footer__middle">
-          <nav className="footer__nav">
+          <nav className="footer__nav" aria-label="Footer navigation">
             <ul>
               {navigationList.map((list) => (
                 <FooterNavList
@@ -36,8 +36,16 @@ function Footer() {
         </div>
         <ul className="footer__social--icons">
           <li>
-            <a target="_blank" href="https://www.instagram.com/screcording/">
-              <FaInstagram className="footer__social--icon" />
+            <a
+              target="_blank"
+              href="https://www.instagram.com/screcording/"
+              aria-label="Visit SC Recording on Instagram"
+            >
+              <FaInstagram
+                className="footer__social--icon"
+                aria-hidden="true"
+                focusable="false"
+              />
             </a>
           </li>
 
@@ -45,16 +53,26 @@ function Footer() {
             <a
               target="_blank"
               href="https://www.facebook.com/soundcellarrecording"
+              aria-label="Visit SC Recording on Facebook"
             >
-              <FaFacebookF className="footer__social--icon" />
+              <FaFacebookF
+                className="footer__social--icon"
+                aria-hidden="true"
+                focusable="false"
+              />
             </a>
           </li>
           <li>
             <a
               target="_blank"
               href="https://www.linkedin.com/in/nathanraymcdonough/"
+              aria-label="Visit SC Recording on LinkedIn"
             >
-              <FaLinkedinIn className="footer__social--icon" />
+              <FaLinkedinIn
+                className="footer__social--icon"
+                aria-hidden="true"
+                focusable="false"
+              />
             </a>
           </li>
         </ul>
@@ -62,7 +80,7 @@ function Footer() {
           © 2026 Sound Cellar Recording. All rights reserved.{" "}
         </p>
       </div>
-    </section>
+    </footer>
   );
 }
 

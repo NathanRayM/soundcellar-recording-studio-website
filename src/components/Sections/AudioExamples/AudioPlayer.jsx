@@ -42,13 +42,20 @@ function AudioPlayer({ title, artist, audio, art, duration }) {
     <>
       <div className="audio__player">
         <img className="player__art" src={art} alt={`${title} Cover Art`} />
-        <button className="player__button" onClick={handlePlayPause}>
+        <button
+          className="player__button"
+          onClick={handlePlayPause}
+          aria-label={isPlaying ? "Pause audio" : "Play audio"}
+          aria-pressed={isPlaying}
+        >
           {isPlaying ? (
             <svg
               viewBox="0 0 24 24"
               className="audio__icon"
               width="18"
               height="18"
+              aria-hidden="true"
+              focusable="false"
             >
               <path d="M7 5h4v14H7zM13 5h4v14h-4z" />
             </svg>
@@ -58,6 +65,8 @@ function AudioPlayer({ title, artist, audio, art, duration }) {
               className="audio__icon"
               width="18"
               height="18"
+              aria-hidden="true"
+              focusable="false"
             >
               <path d="M8 5v14l11-7z" />
             </svg>
