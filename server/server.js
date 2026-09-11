@@ -10,10 +10,6 @@ const resend = new Resend(process.env.RESEND_API_KEY);
 app.use(cors());
 app.use(express.json());
 
-app.get("/", (req, res) => {
-  res.send("Sound Cellar backend is running");
-});
-
 app.post("/api/contact", async (req, res) => {
   const { name, phone, email, message } = req.body;
 
